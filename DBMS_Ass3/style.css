@@ -1,0 +1,86 @@
+body{
+background-color:#edf0f5;
+font-family:Century Gothic;
+}
+#submit,#submit1{
+background:#3b5998;
+color:#fff;
+border:1px solid #3b5998;
+height:30px;
+font-size:15px;
+}
+body a{
+text-decoration:none;
+font-weight:bold;
+}
+body a:hover{
+text-decoration:underline;
+}
+#select{
+font-family:Century Gothic;
+border:1px solid #bdc7d8;
+height:25px;
+width:200px;
+}
+input[type="text"],[type="password"]{
+border:1px solid #bdc7d8;
+height:25px;
+width:200px;
+padding:10px;
+margin:0px;
+font-family:Century Gothic;
+}
+textarea{
+border:1px solid #bdc7d8;
+}
+#results{
+font-size:15px;
+color:#3F3E3E;
+padding:1px;
+overflow-x:hidden;
+overflow-y:auto;
+background: #ddd;
+width: 600px;
+height: 500px;
+border: 1px solid #bdc7d8;
+position: absolute;
+top: 130px;
+left: 425px;
+}
+#search_result{
+background: #fff;
+padding: 10px;
+border-bottom:1px solid #ddd;
+height:140px;
+}
+#send_req{
+position:relative;
+top:-50px;
+left:380px;
+}
+#details{
+position: absolute;
+top: 40px;
+left: 425px;
+}
+#myrequests {
+text-align:center;
+border:1px solid #ddd;
+background:#fff;
+}
+#myrequests_head {
+background:#fff;
+border:1px soild #ddd;
+}
+#messages{
+color:#3F3E3E;
+background:#ddd;
+border:1px solid #bdc7d8;
+padding:1px;
+width:400px;
+}
+#msg_box{
+background:#fff;
+padding: 10px;
+border-bottom:1px solid #ddd;
+}

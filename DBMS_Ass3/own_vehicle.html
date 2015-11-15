@@ -1,0 +1,44 @@
+<html>
+<h2>Vehicle Details</h2>
+<form action='vehicle_reg.php' method='POST'>
+<table>
+<tr>
+<td>Vehicle Type :</td>
+<td>
+<select name="vtype" id="select">
+<option value="SUV">SUV</option>
+<option value="MiniCab">MiniCab</option>
+<option value="VolvoBus">VolvoBus</option>
+<option value="Jeep">Jeep</option>
+<option value="Truck">Truck</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Vehicle Model :</td><td><input type='text' name='vmodel' autocomplete='off' ></td>
+</tr>
+<tr>
+<td>Year of Purchase :</td><td><input type='text' name='year' autocomplete='off' ></td>
+</tr>
+<tr>
+<td>Driver Type :</td><td><input type='text' name='dtype' autocomplete='off' ></td>
+</tr>
+<tr>
+<td>Seating Capacity :</td><td><input type='text' name='seat_cap' autocomplete='off' ></td>
+</tr>
+</table>
+<h2>Driver Details</h2>
+<table>
+<tr>
+<td>Driver Name : </td><td><input type='text' name='dname' autocomplete='off' ></td>
+</tr>
+<tr>
+<td>License No : </td><td><input type='text' name='licenseno' autocomplete='off' ></td>
+</tr>
+<tr>
+<td>Date of License : </td><td><input type='text' name='licensedate' autocomplete='off' ></td>
+</tr>
+</table>
+<p><input type='submit' value='Register' name='submit1' id='submit'></p>
+</form>
+</html>

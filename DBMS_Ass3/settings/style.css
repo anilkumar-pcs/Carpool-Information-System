@@ -1,0 +1,9 @@
+body{background-color:#edf0f5;font-family:Century Gothic;}
+#menu {width: 500px;position:absolute;left:50px;border-bottom: 1px solid #596F97;float: left;padding-top: 10px;height: 58px;padding-left: 10px;}
+ul{list-style-type:none;border-bottom:none}
+li{float:left;}
+a{display:block;width:80px;background:#3b5998;color:#fff;padding: 10px;margin-left: 5px;text-decoration: none;}
+.selected{background:#C0CFEB;border-top:1px solid #596F97;border-left:1px solid #596F97;border-right:1px solid #596F97;border-bottom:none}
+#content{background:#fff;width:460px;border:1px solid #C0CFEB;position:absolute;top: 100px;left: 52px;padding: 5px 25px;}
+input[type="text"],[type="password"]{border:1px solid #bdc7d8;height:25px;width:200px;padding:10px;margin:0px;font-family:Century Gothic;}
+#submit{background:#3b5998;color:#fff;border:1px solid #3b5998;height:30px;font-size:15px;}
